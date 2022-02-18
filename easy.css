@@ -1,0 +1,511 @@
+body {
+  font-family: "Public Sans", sans-serif;
+  overflow-x: hidden;
+}
+.logo {
+  position: absolute;
+  left: 100px;
+  top: 30px;
+}
+ul {
+  position: absolute;
+  left: 350px;
+  /* bottom: 600px; */
+  list-style: none;
+  text-decoration: none;
+}
+a,
+li {
+  display: inline;
+  padding-left: 15px;
+
+  color: grey;
+  text-decoration: none;
+}
+li a:hover {
+  color: black;
+  padding-bottom: 5px;
+  border-bottom: 2px solid hsl(136, 65%, 51%);
+}
+.request-btn {
+  position: absolute;
+  left: 970px;
+  top: 15px;
+  width: 150px;
+  height: 40px;
+  background-image: linear-gradient(
+    to right,
+    hsl(136, 65%, 51%),
+    hsl(192, 70%, 51%)
+  );
+  border-radius: 30px;
+}
+.int {
+  position: relative;
+  left: 25px;
+  bottom: 3px;
+  color: white;
+  font-size: 14px;
+  cursor: pointer;
+}
+.top {
+  position: relative;
+  top: 90px;
+  background-color: hsl(0, 0%, 98%);
+  width: 100%;
+  height: 500px;
+  overflow: hidden;
+}
+.bckg {
+  position: relative;
+  bottom: 270px;
+  left: 600px;
+}
+.first {
+  position: absolute;
+  font-size: 40px;
+  color: black;
+  bottom: 240px;
+  left: 100px;
+  font-weight: normal;
+}
+.second {
+  position: absolute;
+  font-size: 18px;
+  color: hsl(228, 4%, 73%);
+  bottom: 170px;
+  left: 100px;
+  font-weight: normal;
+}
+.sec-btn {
+  position: absolute;
+  bottom: 110px;
+  left: 100px;
+  width: 150px;
+  height: 40px;
+  background-image: linear-gradient(
+    to right,
+    hsl(136, 65%, 51%),
+    hsl(192, 70%, 51%)
+  );
+  border-radius: 30px;
+}
+.req {
+  position: relative;
+  left: 25px;
+  bottom: 3px;
+  color: white;
+  font-size: 14px;
+  cursor: pointer;
+}
+.phn {
+  position: absolute;
+  left: 780px;
+  top: 100px;
+  height: 700px;
+}
+
+.top-2 {
+  background-color: hsl(220, 16%, 96%);
+  width: 100%;
+  height: 650px;
+}
+.third {
+  position: absolute;
+  top: 650px;
+  font-size: 40px;
+  color: black;
+  left: 100px;
+  font-weight: normal;
+}
+.fourth {
+  position: absolute;
+  font-size: 18px;
+  color: hsl(228, 4%, 73%);
+  top: 730px;
+  left: 100px;
+  font-weight: normal;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  position: relative;
+  top: 450px;
+  left: 100px;
+  font-weight: lighter;
+  font-size: 12px;
+}
+.grid-row-1 {
+  width: 200px;
+}
+.online {
+  position: absolute;
+  bottom: 70px;
+}
+.bank {
+  position: absolute;
+  color: grey;
+}
+.grid-row-2 {
+  position: relative;
+  width: 230px;
+  right: 100px;
+}
+.Budget {
+  position: absolute;
+  bottom: 70px;
+}
+.simple {
+  position: absolute;
+  color: grey;
+}
+.grid-row-3 {
+  position: relative;
+  width: 200px;
+  right: 200px;
+}
+.onboard {
+  position: absolute;
+  bottom: 70px;
+}
+.fast {
+  position: absolute;
+  color: grey;
+}
+.grid-row-4 {
+  position: relative;
+  width: 200px;
+  right: 280px;
+}
+.API {
+  position: absolute;
+  bottom: 70px;
+}
+.open {
+  position: absolute;
+  color: grey;
+}
+.article {
+  position: relative;
+  bottom: 30px;
+  width: 100%;
+  height: 550px;
+  background-color: hsl(0, 0%, 98%);
+}
+.latest {
+  position: relative;
+  left: 100px;
+  top: 50px;
+  font-weight: lighter;
+}
+.contain {
+  display: grid;
+  grid-template-rows: auto auto auto auto;
+}
+.currency {
+  position: absolute;
+  top: 130px;
+  left: 100px;
+  width: 200px;
+  height: 170px;
+  border-radius: 5px;
+}
+.alpha {
+  position: relative;
+  top: 245px;
+  left: 100px;
+  width: 202px;
+  height: 160px;
+  background-color: white;
+  color: black;
+  border-radius: 5px;
+}
+.alpha-1 {
+  font-size: 7px;
+  padding-top: 5px;
+  padding-left: 15px;
+  color: grey;
+}
+.alpha-2 {
+  font-size: 14px;
+  padding-left: 15px;
+}
+.alpha-3 {
+  font-size: 11px;
+  padding-left: 15px;
+  color: grey;
+}
+.restaurant {
+  position: absolute;
+  top: 130px;
+  left: 360px;
+  width: 200px;
+  height: 170px;
+  border-radius: 5px;
+}
+.bravo {
+  position: absolute;
+  top: 290px;
+  left: 360px;
+  width: 202px;
+  height: 160px;
+  background-color: white;
+  color: black;
+  border-radius: 5px;
+}
+.bravo-1 {
+  font-size: 7px;
+  padding-top: 5px;
+  padding-left: 15px;
+  color: grey;
+}
+.bravo-2 {
+  font-size: 14px;
+  padding-left: 15px;
+}
+.bravo-3 {
+  font-size: 11px;
+  padding-left: 15px;
+  color: grey;
+}
+.plane {
+  position: absolute;
+  top: 130px;
+  left: 620px;
+  width: 200px;
+  height: 170px;
+  border-radius: 5px;
+}
+.charlie {
+  position: absolute;
+  top: 290px;
+  left: 620px;
+  width: 202px;
+  height: 160px;
+  background-color: white;
+  color: black;
+  border-radius: 5px;
+}
+.charlie-1 {
+  font-size: 7px;
+  padding-top: 5px;
+  padding-left: 15px;
+  color: grey;
+}
+.charlie-2 {
+  font-size: 14px;
+  padding-left: 15px;
+}
+.charlie-3 {
+  font-size: 11px;
+  padding-left: 15px;
+  color: grey;
+}
+.confetti {
+  position: absolute;
+  top: 130px;
+  left: 880px;
+  width: 200px;
+  height: 170px;
+  border-radius: 5px;
+}
+.delta {
+  position: absolute;
+  top: 290px;
+  left: 880px;
+  width: 202px;
+  height: 160px;
+  background-color: white;
+  color: black;
+  border-radius: 5px;
+}
+.delta-1 {
+  font-size: 7px;
+  padding-top: 5px;
+  padding-left: 15px;
+  color: grey;
+}
+.delta-2 {
+  font-size: 14px;
+  padding-left: 15px;
+}
+.delta-3 {
+  font-size: 11px;
+  padding-left: 15px;
+  color: grey;
+}
+.footer {
+  background-color: hsl(246, 53%, 45%);
+  width: 100%;
+  height: 150px;
+}
+.foot-logo {
+  position: absolute;
+  top: 1750px;
+  left: 20px;
+  filter: white;
+}
+.fb {
+  position: relative;
+  left: 10px;
+  top: 100px;
+}
+.yt {
+  position: relative;
+  left: 20px;
+  top: 100px;
+}
+.tw {
+  position: relative;
+  left: 30px;
+  top: 100px;
+}
+.pin {
+  position: relative;
+  left: 40px;
+  top: 100px;
+}
+.insta {
+  position: relative;
+  left: 50px;
+  top: 100px;
+}
+.iphone {
+  position: relative;
+  right: 180px;
+}
+
+.ft-nav-item {
+  display: block;
+  padding-bottom: 10px;
+}
+.android {
+  position: relative;
+}
+.ft-nav-item-2 {
+  display: block;
+  padding-bottom: 10px;
+}
+.lst-btn {
+  position: relative;
+  left: 950px;
+  top: 10px;
+  width: 150px;
+  height: 40px;
+  background-image: linear-gradient(
+    to right,
+    hsl(136, 65%, 51%),
+    hsl(192, 70%, 51%)
+  );
+  border-radius: 30px;
+}
+.lst {
+  position: relative;
+  left: 30px;
+  top: 10px;
+  color: white;
+  font-size: 14px;
+  cursor: pointer;
+}
+.small {
+  position: relative;
+  left: 920px;
+  top: 20px;
+  font-size: 10px;
+  color: grey;
+}
+
+@media screen and (max-width: 1125px) {
+  body {
+    background-color: white;
+    /* width: fit-content; */
+  }
+  .logo {
+    position: absolute;
+    left: 50px;
+  }
+  li {
+    display: none;
+  }
+  .request-btn {
+    display: none;
+  }
+  .top-2 {
+    overflow-y: hidden;
+    align-items: center;
+    height: 1600px;
+  }
+  .third {
+    position: absolute;
+    top: 1200px;
+  }
+  .fourth {
+    position: absolute;
+    top: 1300px;
+  }
+  .grid-container {
+    position: absolute;
+    top: 1600px;
+    display: block;
+  }
+  .grid-row-1 {
+    position: absolute;
+    left: 200px;
+  }
+  .grid-row-2 {
+    position: absolute;
+    left: 200px;
+    top: 250px;
+  }
+  .grid-row-3 {
+    position: absolute;
+    left: 200px;
+    top: 500px;
+  }
+  .grid-row-4 {
+    position: absolute;
+    left: 200px;
+    top: 750px;
+  }
+  .phn {
+    position: absolute;
+    left: 50px;
+    top: 100px;
+    width: 500px;
+    height: 500px;
+  }
+  .top {
+    height: 1000px;
+  }
+  .bckg {
+    position: absolute;
+    top: 5px;
+    left: -40px;
+    height: 600px;
+    width: 650px;
+  }
+  .article {
+    height: 1500px;
+  }
+  .latest {
+    padding-left: 300px;
+  }
+  /* .alpha {
+    position: absolute;
+    left: 500px;
+  } */
+  .foyin {
+    position: absolute;
+    left: 280px;
+  }
+  .nana {
+    position: absolute;
+    left: 30px;
+    top: 400px;
+  }
+  .samson {
+    position: absolute;
+    right: 1285px;
+    top: 800px;
+  }
+}
